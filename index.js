@@ -1,5 +1,5 @@
 import { ApolloServer } from '@apollo/server';
-import { expressMiddleware } from '@apollo/server/express4';
+import { expressMiddleware } from '@apollo/server/express4/index.js';
 import express from 'express';
 import mysql from 'mysql2/promise';
 import dotenv from 'dotenv';
